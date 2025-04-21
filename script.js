@@ -22,7 +22,16 @@ document.addEventListener("DOMContentLoaded", function () {
         "all-time":
           "Comprehensive health records since monitoring began show significantly improved health outcomes due to better management practices.",
       },
-      // Other data types would be defined similarly
+      funding: {
+        "last-year":
+          "Assam received ₹35 crore for elephant conservation projects in the last fiscal year. Major funding sources include the central government's Project Elephant initiative and international wildlife organizations.",
+        "last-5-years":
+          "Over the past 5 years, Assam has secured approximately ₹150 crore in funding, with a 15% increase in annual allocations since 2018.",
+        "last-10-years":
+          "Decade-long funding analysis shows diversification of support sources, with corporate sponsorships growing from 5% to 18% of total conservation funding.",
+        "all-time":
+          "Since the establishment of dedicated elephant conservation programs, Assam has been the recipient of over ₹320 crore in cumulative funding from governmental and non-governmental sources.",
+      },
     },
     arunachal: {
       population: {
@@ -35,9 +44,39 @@ document.addEventListener("DOMContentLoaded", function () {
         "all-time":
           "Historical records indicate Arunachal had nearly 2,000 elephants in the 1980s, showing a gradual decline over decades.",
       },
-      // Other data would continue for all locations and data types
+      funding: {
+        "last-year":
+          "Arunachal Pradesh received ₹12 crore for elephant habitat preservation and anti-poaching measures in the previous fiscal year.",
+        "last-5-years":
+          "Funding for Arunachal's elephant programs has been inconsistent over the past 5 years, averaging ₹10 crore annually with significant year-to-year variations.",
+        "last-10-years":
+          "10-year funding trends show a gradual increase from ₹6 crore to ₹12 crore annually, though with interruptions during 2016-2017.",
+        "all-time":
+          "Historical funding records indicate approximately ₹95 crore has been allocated to elephant conservation in Arunachal Pradesh since formal programs began.",
+      },
     },
-    // Other locations would be defined similarly
+    meghalaya: {
+      population: {
+        "last-year":
+          "Meghalaya reported approximately 1,830 elephants in protected areas and community reserves.",
+        "last-5-years":
+          "A steady 2% annual growth in Meghalaya's elephant population has been observed over the last 5 years.",
+        "last-10-years":
+          "Meghalaya has seen one of the most successful conservation stories with a 12% increase in elephant population over the decade.",
+        "all-time":
+          "Historical data indicates Meghalaya has maintained relatively stable elephant populations due to community-based conservation efforts.",
+      },
+      funding: {
+        "last-year":
+          "Meghalaya secured ₹15 crore for elephant conservation, community engagement, and human-elephant conflict mitigation last year.",
+        "last-5-years":
+          "The state has seen funding increase by 23% over five years, reaching a total of approximately ₹65 crore for elephant-related initiatives.",
+        "last-10-years":
+          "Ten-year trends show consistent growth in funding, particularly for community-led conservation programs.",
+        "all-time":
+          "Meghalaya's unique approach to conservation has attracted approximately ₹120 crore in cumulative funding from diverse sources.",
+      },
+    },
   };
 
   // Handle form submission

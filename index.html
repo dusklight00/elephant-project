@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elephant Husbandry Data Portal - North Eastern India</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Elephant Husbandry Data Portal</h1>
+        <p class="subtitle">North Eastern India Region</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="search-section">
+        <h2>Data Search</h2>
+        <form id="data-search-form">
+          <div class="form-group">
+            <label for="location">Select Location:</label>
+            <select id="location" name="location" required>
+              <option value="" disabled selected>
+                -- Select a location --
+              </option>
+              <option value="assam">Assam</option>
+              <option value="arunachal">Arunachal Pradesh</option>
+              <option value="meghalaya">Meghalaya</option>
+              <option value="nagaland">Nagaland</option>
+              <option value="manipur">Manipur</option>
+              <option value="mizoram">Mizoram</option>
+              <option value="tripura">Tripura</option>
+              <option value="sikkim">Sikkim</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="data-type">Data Type:</label>
+            <select id="data-type" name="data-type" required>
+              <option value="" disabled selected>-- Select data type --</option>
+              <option value="population">Population Statistics</option>
+              <option value="health">Health Records</option>
+              <option value="feeding">Feeding Patterns</option>
+              <option value="behavior">Behavioral Studies</option>
+              <option value="conservation">Conservation Efforts</option>
+              <option value="human-conflicts">Human-Elephant Conflicts</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="time-period">Time Period:</label>
+            <select id="time-period" name="time-period" required>
+              <option value="" disabled selected>
+                -- Select time period --
+              </option>
+              <option value="last-year">Last Year</option>
+              <option value="last-5-years">Last 5 Years</option>
+              <option value="last-10-years">Last 10 Years</option>
+              <option value="all-time">All Available Data</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-search">Search Data</button>
+        </form>
+      </section>
+
+      <section class="results-section" id="results-section">
+        <h2>Results</h2>
+        <div id="data-visualization">
+          <p class="no-data-message">
+            Select location and parameters to view elephant husbandry data.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Elephant Husbandry Research Initiative</p>
+        <p>
+          Contact:
+          <a href="mailto:info@elephanthusbandry.org"
+            >info@elephanthusbandry.org</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
